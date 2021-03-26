@@ -17,7 +17,7 @@ class App extends Component {
   }
   addTasks(task) {
     this.setState({
-      todo: [this.state.todo, this.state.todoNew],
+      todo: [...this.state.todo, this.state.todoNew],
       todoNew: ''
     })
 
